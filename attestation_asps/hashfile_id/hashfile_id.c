@@ -4,7 +4,7 @@
 int main(int argc, char **argv)
 {
   ASPRunRequest req = ASPRunRequest_from_string(argv[1]);
-  const char *preamble = "hashFile(\0";
+  const char *preamble = "HashingFile(\0";
   const char *postamble = ")\0";
   size_t resp_ev_size = strlen(preamble) + (req.raw_ev == NULL ? 0 : strlen(req.raw_ev->ev_val)) + strlen(postamble);
   char *resp_ev = (char *)malloc(sizeof(char) * resp_ev_size);
