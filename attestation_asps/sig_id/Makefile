@@ -1,5 +1,5 @@
 all: sigid.c
-	gcc sigid.c -o ../bin/sigid
+	gcc sigid.c -o ../bin/sig_id
 
 clean:
-	rm ../bin/sigid
+	rm ../bin/sig_id
