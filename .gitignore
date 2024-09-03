@@ -4,3 +4,4 @@ bin
 
 # in Rust projects, this directory contains only derived files.
 target
+*/Cargo.lock
