@@ -10,6 +10,18 @@ test = false
 bench = false
 
 [[bin]]
+name = "r_readfile_id"
+path = "src/bin/r_readfile_id.rs"
+test = false
+bench = false
+
+[[bin]]
+name = "appraise_r_readfile_id"
+path = "src/bin/appraise_r_readfile_id.rs"
+test = false
+bench = false
+
+[[bin]]
 name = "r_uptime_id"
 path = "src/bin/r_uptime_id.rs"
 test = false
@@ -22,3 +34,4 @@ anyhow = "1.0.86"
 base64 = "0.13"
 sha2 = "0.10.8"
 sysinfo = "0.31.3"
+hex = "0.4.3"
